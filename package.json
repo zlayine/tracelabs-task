@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "babel-node": "babel-node",
-    "start": "nodemon --ext js --exec npm run babel-node -- app.js",
-    "dev": "nodemon --ext js --exec npm run babel-node -- app.js"
+    "start": "nodemon --ext js --exec npm run babel-node -- app.js"
   },
   "author": "",
   "license": "ISC",
