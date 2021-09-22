@@ -8,7 +8,11 @@ The application saves the blockchain transactions if found in the database to no
 
 ## Backend
 
-Copy .env.sample to .env to create an environment file for the project and replace the INFURA_TOKEN
+Copy .env.sample to .env to create an environment file for the project 
+
+Replace the INFURA_TOKEN
+
+Add a MONGO_DB value with represents the database name that will be created
 
 ### `cp .env.sample .env`
 
@@ -29,7 +33,7 @@ In package.json, replace proxy 'localhost' in the line 5 with the IP of the mach
 
 To run this project with docker, this command will build the images before running the containers:
 
-### `docker-compose up --build`
+### `docker-compose up -d --build`
 
 ## Usage
 
